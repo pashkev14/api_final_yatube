@@ -12,23 +12,23 @@ api final
 Cоздать и активировать виртуальное окружение:
 
 ```
-python -m venv venv
+python3 -m venv env
 ```
 
 * Если у вас Linux/macOS
 
     ```
-    source venv/bin/activate
+    source env/bin/activate
     ```
 
 * Если у вас Windows
 
     ```
-    source venv/scripts/activate
+    source env/scripts/activate
     ```
 
 ```
-python -m pip install --upgrade pip
+python3 -m pip install --upgrade pip
 ```
 
 Установить зависимости из файла requirements.txt:
@@ -40,13 +40,13 @@ pip install -r requirements.txt
 Выполнить миграции:
 
 ```
-python manage.py migrate
+python3 manage.py migrate
 ```
 
 Запустить проект:
 
 ```
-python manage.py runserver
+python3 manage.py runserver
 ```
 
 ### Примеры запросов
